@@ -98,12 +98,3 @@ The system generates several PDF files visualizing the embeddings:
 - `GF_d2.pdf` and `GF_d10.pdf`: Graph Factorization embeddings using genre+description data in 2D and 10D.
 
 These visualizations show how books are clustered in the hyperbolic space based on their genres and content similarities.
-
-## Extending the System
-
-To extend or modify the system:
-1. Add new embedding methods in `model.py`.
-2. Implement additional preprocessing steps in `ingestion.py`.
-3. Create new visualization techniques in `utils.py`.
-4. Update `analysis.py` to incorporate new features or models.
-5. Modify the preprocessing scripts to handle different data sources or formats.
